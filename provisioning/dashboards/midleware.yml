@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+- name: 'midleware'
+  orgId: 1
+  folder: 'Midleware'
+  type: file
+  disableDeletion: false
+  editable: true
+  options:
+    path: git/grafana-provision-example.git/provisioning
